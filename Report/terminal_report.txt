@@ -348,4 +348,171 @@ Creating new branch with no history
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004h[7mgit checkout --orphan clean-main[27m[32D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27m-[27m-[27mo[27mr[27mp[27mh[27ma[27mn[27m [27mc[27ml[27me[27ma[27mn[27m-[27mm[27ma[27mi[27mn[?2004l
 M	Report/terminal_report.txt
 Switched to a new branch 'clean-main'
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004h[7mgit add .[27m[9D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004h
+bck-i-search: _[K[A[40C[4mg[24mit add .[1B[50Dg_[A[39C[4mg[4mi[24m[1B[42Di_[A[38C[4mg[4mi[4mt[24m[1B[42Dt_[A[37C[2C[4mt[4m [24m[1B[42D _[A[36C[3C[4m [4mc[24mheckout --orphan clean-main[1B[69Dc_[A[35C[4C[4mc[4mo[24mmmit -m "Added .gitignore to ignore .terraform, *.tfstate, & lock files"[1B[114Do_[A[34C[24mg[24mi[24mt[24m [24ma[24mdd .                                                                     [1B[K[A[64Crm --cached .terraform.lock.hcl[19D*.tfstate          [10D[9D.terraform.lock.hcl[31Dadd .                          [26Dcommit -m "Added .gitignore to ignore .terraform, *.tfstate, & lock files"[74Dstatus                                                                    [68Dcommit -m "Added .gitignore to ignore .terraform, *.tfstate, & lock files"[74Dadd .                                                                     [69Drm --cached .terraform.lock.hcl[19D*.tfstate          [10D[17Dr --cached .terraform[25Dadd .gitignore           [11D[18Dls -a             [13D  git push -u origin main[23Dnano .gitign[2Ce        [8D[15Dgit status     push -u origin main[19Dcommit -m "Tested AWS Resource Provisiong with Terraform"[57Dadd .                                                    [52D[9Dterraform state list[10Dapply     plan init[14Dnano test.tf  [12Dech[2C"Testing terraform integration with my aws account"[50DAlso, I configured aws cli[3P[10Cccount access keey and validated that as well with region"[94DSo far I have installed aws cli, terraform, helm, trivy, kubectl, and validated them all."    [96Dclear                                                                                           [91Decho "So far I have installed aws cli, terraform, helm, trivy, kubectl, and validated them all."[96Dclear                                                                                           [91Dls   cd /Users/mashir/Documents/sensiply[35Dls                                 [33Dmv k8s.zip k8s /Users/mashir/Documents/sensiply/[48Dls                                              [46Dcd ../../Downloads[18Dpwd               [15Dls cd ../Documents/sensiply[24Dls                      [22Dcd ..ls   cd k8sls    unzip k8s.zip[13Dls           [11Dcd Downloads[12Dls          [10Dclearls   unzip test-ci-backups.zip[25Dls                       [23Dclearls   cd Sensiply [12Dls         [9Dclearls   cd Documents[12Dclear       els   cd ..ls   cd Downloads[12Dls          [10Dgit push -u origin main[19Dcommit -m "Initial Push with report"[36Dpush -u origin main                 [17D[19Dcommit -m "Initial Push with report"[36Dadd .                               [31D[9Dls -a      cd sensiply-training-k8s-troubleshooting-poc[44Dls                                          [42Dcd sensiply-training-k8s-troubleshooting-poc[44Dls                                          [42D -agit add .commit -m "Initial Push with report"[36Dadd .                               [31D[9Dls -a      cd sensiply-training-k8s-troubleshooting-poc[44Dls                                          [42Dmv dir report sensiply-training-k8s-troubleshooting-poc/[56Dls                                                      [54Dgit clone https://github.com/Ashir-Qayyum/sensiply-training-k8s-troubleshooting-poc.git[87Dclear                                                                                  [82Dls   cd ..ls   cd report[9Dls       cd ..ls   cleargit clone https://github.com/Ashir-Qayyum/sensiply-training-k8s-troubleshooting-poc.git[87Dls                                                                                     [85Dmv dir report sensiply-training-k8s-troubleshooting-poc/[56Dls                                                      [54Dcd sensiply-training-k8s-troubleshooting-poc[44Dls                                          [42D -agit add .commit -m "Initial Push with report"[36Dpush -u origin main                 [17D[19Dcommit -m "Initial Push with report" "&" "t"e"s"t"i"n"g" "" [1C" " " " " r"r"a"f"o"r"m" "t"e"s"t"i"n"g"[1Caterraform testing"[18Dwterraform testing"[18Dsterraform testing"[18D-terraform testing"[18D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C testing"[9Di testing"[9Dn testing"[9Dt testing"[9De testing"[9Dg testing"[9Dr testing"[9Da testing"[9Dt testing"[9Di testing"[9Do testing"[9Dn testing"[9D[1C[1C[1C[1C[1C[1C[1C[1C[1C[?2004l[1B[clean-main (root-commit) ed604ef] Initial Push with report & aws-terraform integration testing
+ 3 files changed, 379 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Report/terminal_report.txt
+ create mode 100644 test.tf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hggit push      g  ggit branch[?2004l
+[?1h=* [32mclean-main[m[m
+  main[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004h[7mgit branch -D main[27m[18D[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27m-[27mD[27m [27mm[27ma[27mi[27mn[?2004l
+Deleted branch main (was befab2b).
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hggit branch[?2004l
+[?1h=* [32mclean-main[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hlls[?2004l
+Report			terraform.tfstate	test.tf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004h[7mgit branch -m main[27m[18D[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27m-[27mm[27m [27mm[27ma[27mi[27mn[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hggit branch[?2004l
+[?1h=* [32mmain[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004h[7mgit push -u origin main --force[27m[31D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27mu[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27mi[27mn[27m [27m-[27m-[27mf[27mo[27mr[27mc[27me[?2004l
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 10.08 KiB | 5.04 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ashir-Qayyum/sensiply-training-eks-terraform-poc.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hlls[?2004l
+Report			terraform.tfstate	test.tf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004htterraform statee l   list[?2004l
+aws_instance.test_ec2
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004htterraform destroy[?2004l
+[0m[1maws_instance.test_ec2: Refreshing state... [id=i-0c6f362c787520b77][0m
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  [31m-[0m destroy[0m
+
+Terraform will perform the following actions:
+
+[1m  # aws_instance.test_ec2[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "aws_instance" "test_ec2" {
+      [31m-[0m[0m ami                                  = "ami-0b6d9d3d33ba97d99" [90m-> null[0m[0m
+      [31m-[0m[0m arn                                  = "arn:aws:ec2:us-east-1:319797800858:instance/i-0c6f362c787520b77" [90m-> null[0m[0m
+      [31m-[0m[0m associate_public_ip_address          = true [90m-> null[0m[0m
+      [31m-[0m[0m availability_zone                    = "us-east-1d" [90m-> null[0m[0m
+      [31m-[0m[0m disable_api_stop                     = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_api_termination              = false [90m-> null[0m[0m
+      [31m-[0m[0m ebs_optimized                        = false [90m-> null[0m[0m
+      [31m-[0m[0m force_destroy                        = false [90m-> null[0m[0m
+      [31m-[0m[0m get_password_data                    = false [90m-> null[0m[0m
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [31m-[0m[0m id                                   = "i-0c6f362c787520b77" [90m-> null[0m[0m
+      [31m-[0m[0m instance_initiated_shutdown_behavior = "stop" [90m-> null[0m[0m
+      [31m-[0m[0m instance_state                       = "running" [90m-> null[0m[0m
+      [31m-[0m[0m instance_type                        = "t3.micro" [90m-> null[0m[0m
+      [31m-[0m[0m ipv6_address_count                   = 0 [90m-> null[0m[0m
+      [31m-[0m[0m ipv6_addresses                       = [] [90m-> null[0m[0m
+      [31m-[0m[0m monitoring                           = false [90m-> null[0m[0m
+      [31m-[0m[0m placement_partition_number           = 0 [90m-> null[0m[0m
+      [31m-[0m[0m primary_network_interface_id         = "eni-0d920d225ed324ae6" [90m-> null[0m[0m
+      [31m-[0m[0m private_dns                          = "ip-172-31-41-42.ec2.internal" [90m-> null[0m[0m
+      [31m-[0m[0m private_ip                           = "172.31.41.42" [90m-> null[0m[0m
+      [31m-[0m[0m public_dns                           = "ec2-32-198-22-222.compute-1.amazonaws.com" [90m-> null[0m[0m
+      [31m-[0m[0m public_ip                            = "32.198.22.222" [90m-> null[0m[0m
+      [31m-[0m[0m region                               = "us-east-1" [90m-> null[0m[0m
+      [31m-[0m[0m secondary_private_ips                = [] [90m-> null[0m[0m
+      [31m-[0m[0m security_groups                      = [
+          [31m-[0m[0m "default",
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m source_dest_check                    = true [90m-> null[0m[0m
+      [31m-[0m[0m subnet_id                            = "subnet-0b06908321a28c803" [90m-> null[0m[0m
+      [31m-[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "terraform-test-instance"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "terraform-test-instance"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m tenancy                              = "default" [90m-> null[0m[0m
+      [31m-[0m[0m user_data_replace_on_change          = false [90m-> null[0m[0m
+      [31m-[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-07b2e95c9bba46f47",
+        ] [90m-> null[0m[0m
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count            = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core      = 2 [90m-> null[0m[0m
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_protocol_ipv6          = "disabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 2 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "required" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m primary_network_interface {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m network_interface_id  = "eni-0d920d225ed324ae6" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/sda1" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 3000 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m tags_all              = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 125 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-0da3b1734f425cfc7" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "gp3" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1mPlan:[0m [0m0 to add, 0 to change, 1 to destroy.
+[0m[1m
+Do you really want to destroy all resources?[0m
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  [1mEnter a value:[0m [0myes
+
+[0m[1maws_instance.test_ec2: Destroying... [id=i-0c6f362c787520b77][0m[0m
+[0m[1maws_instance.test_ec2: Still destroying... [id=i-0c6f362c787520b77, 00m10s elapsed][0m[0m
+[0m[1maws_instance.test_ec2: Still destroying... [id=i-0c6f362c787520b77, 00m20s elapsed][0m[0m
+[0m[1maws_instance.test_ec2: Still destroying... [id=i-0c6f362c787520b77, 00m30s elapsed][0m[0m
+[0m[1maws_instance.test_ec2: Still destroying... [id=i-0c6f362c787520b77, 00m40s elapsed][0m[0m
+[0m[1maws_instance.test_ec2: Still destroying... [id=i-0c6f362c787520b77, 00m50s elapsed][0m[0m
+[0m[1maws_instance.test_ec2: Still destroying... [id=i-0c6f362c787520b77, 01m00s elapsed][0m[0m
+[0m[1maws_instance.test_ec2: Still destroying... [id=i-0c6f362c787520b77, 01m10s elapsed][0m[0m
+[0m[1maws_instance.test_ec2: Destruction complete after 1m13s[0m
+[0m[1m[32m
+Destroy complete! Resources: 1 destroyed.[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hlls[?2004l
+Report				terraform.tfstate		terraform.tfstate.backup	test.tf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hlls -a[?2004l
+.				.git				.terraform			Report				terraform.tfstate.backup
+..				.gitignore			.terraform.lock.hcl		terraform.tfstate		test.tf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hrrm .terraform terraf      [7mterraform.tfstate.backup[27m[24D[27mt[27me[27mr[27mr[27ma[27mf[27mo[27mr[27mm[27m.[27mt[27mf[27ms[27mt[27ma[27mt[27me[27m.[27mb[27ma[27mc[27mk[27mu[27mp [7m.terraform.lock.hcl[27m[19D[27m.[27mt[27me[27mr[27mr[27ma[27mf[27mo[27mr[27mm[27m.[27ml[27mo[27mc[27mk[27m.[27mh[27mc[27ml [7mterraform.tfstate[27m[17D[27mt[27me[27mr[27mr[27ma[27mf[27mo[27mr[27mm[27m.[27mt[27mf[27ms[27mt[27ma[27mt[27me test.tf[P[71C [72D[P[71C [72D[P[71C [72D[P[71C [72D[P[71C [72D[P[71C [72D[P[71C [72D[P[71C [72D[P[71C [72D[P[71C [72D[P[70C [72D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]7;file://NIS-PK564.local/Users/mashir/Documents/Sensiply%20Training/eks-terraform/sensiply-training-eks-terraform-poc[0m[27m[24m[Jmashir@NIS-PK564 sensiply-training-eks-terraform-poc % [K[?2004hrr rm 0-rf     -rf 
