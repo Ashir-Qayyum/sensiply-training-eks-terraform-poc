@@ -1,5 +1,17 @@
 .terraform/
 
 *.tfstate
+*.tfstate.backup
 
 .terraform.lock.hcl
+
+
+
+tfplan
+tfplan.json
+
+# FROM TRIVY FOLDER
+config-scan-report.json
+plan-scan-report.json
+state-scan-report.json
+

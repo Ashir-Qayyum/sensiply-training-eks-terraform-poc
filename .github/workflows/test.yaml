@@ -1,0 +1,16 @@
+name: Test Runner
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: arc-runner-set
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test
+        run: |
+          echo "Helloo From EKS runner!!"
+          hostname
