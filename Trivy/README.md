@@ -10,7 +10,8 @@ FOR PLAN SCAN:<br>
 
 First i generated fresh tfplan running at dir terraform/:<br>
 > terraform plan -out=tfplan                                (I later included tfplan and its json in .gitignore) <br>
-<br>Then I coverted the genrated tfplan to json with:<br>
+
+Then I coverted the genrated tfplan to json with:<br>
 > terraform show -json tfplan > tfplan.json                 (tfplan.json in .gitignore)<br>
 
 Then I moved to dir Trivy/ and generated report with:<br>
