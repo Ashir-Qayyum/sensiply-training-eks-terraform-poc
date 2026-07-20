@@ -95,6 +95,23 @@ jobs:
       - name: Install Helm
         uses: azure/setup-helm@v4
 
+      - name: Check unzip                       # Checking if utility is installed 
+        run: unzip -v
+
+      - name: Install AWS CLI                   # Installing AWS CLI as it was installed by-default
+        run: |
+
+            curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o awscliv2.zip
+
+            unzip awscliv2.zip
+
+            ./aws/install \
+               --bin-dir $HOME/bin \
+               --install-dir $HOME/aws-cli
+
+            echo "$HOME/bin" >> $GITHUB_PATH
+            $HOME/bin/aws --version
+
       - name: Configure kubeconfig
         run: |
 
