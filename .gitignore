@@ -15,3 +15,4 @@ config-scan-report.json
 plan-scan-report.json
 state-scan-report.json
 
+.DS_Store

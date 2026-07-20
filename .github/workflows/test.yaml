@@ -4,6 +4,11 @@ name: Test Runner
 
 on:
   push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/test.yaml"
+
 
 jobs:
   test:
