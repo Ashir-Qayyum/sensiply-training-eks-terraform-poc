@@ -1,4 +1,4 @@
-### FIRST, I generated .json report with the followig:   (I have put all the .json files in .gitignore as they contain sensitive data)
+#### FIRST, I generated .json report with the followig:   (I have put all the .json files in .gitignore as they contain sensitive data)
 
 FOR CONFIG SCANING:<br>
 
@@ -28,7 +28,7 @@ then moving at the dir Trivy/ I ran:<br>
 > -o state-scan-report.json<br>
 ( The Scan went successful and trivy found no misconfiguration/vulnerablility in the Deployed Infra so returned minimal json file)
 
-### FINALLY, I GENERATED READABLE HTML FILES FOR THE REPORTS
+#### FINALLY, I GENERATED READABLE HTML FILES FOR THE REPORTS
 
 First, I downloaded the template running:<br>
 (at dir Trivy/)<br>
