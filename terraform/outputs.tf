@@ -21,3 +21,15 @@ output "public_subnet_1" {
 output "public_subnet_2" {
   value = module.vpc.public_subnet_2
 }
+
+output "rds_endpoint" {
+  value = module.rds.rds_endpoint
+}
+
+output "rds_port" {
+  value = module.rds.rds_port
+}
+
+output "database_name" {
+  value = module.rds.database_name
+}

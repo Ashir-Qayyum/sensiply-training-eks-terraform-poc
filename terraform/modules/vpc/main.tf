@@ -19,8 +19,8 @@ resource "aws_subnet" "public_subnet_1" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name                     = "${var.project_name}-public-subnet-1"
-    "kubernetes.io/role/elb" = "1" #This tag will help kubernetes discover subnets
+    Name                                              = "${var.project_name}-public-subnet-1"
+    "kubernetes.io/role/elb"                          = "1"      #This tag will help kubernetes discover subnets
     "kubernetes.io/cluster/sensiply-training-cluster" = "shared" #eks needed this tag as well
 
   }
@@ -35,8 +35,8 @@ resource "aws_subnet" "public_subnet_2" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name                     = "${var.project_name}-public-subnet-2"
-    "kubernetes.io/role/elb" = "1" #This tag will help kubernetes discover subnets
+    Name                                              = "${var.project_name}-public-subnet-2"
+    "kubernetes.io/role/elb"                          = "1"      #This tag will help kubernetes discover subnets
     "kubernetes.io/cluster/sensiply-training-cluster" = "shared" #eks needed this tag as well
   }
 

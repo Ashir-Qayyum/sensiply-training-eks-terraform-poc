@@ -44,3 +44,19 @@ module "nodegroup" {
   cni_policy_dependency     = module.iam.cni_attachment
   ecr_policy_dependency     = module.iam.ecr_attachment
 }
+
+
+module "rds" {
+
+  source       = "./modules/rds"
+  project_name = var.project_name
+  vpc_id       = module.vpc.vpc_id
+
+  subnet_1 = module.vpc.public_subnet_1
+  subnet_2 = module.vpc.public_subnet_2
+
+  db_name     = var.db_name
+  db_username = var.db_username
+  db_password = var.db_password
+
+}
