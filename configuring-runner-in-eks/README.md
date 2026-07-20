@@ -10,12 +10,13 @@ Runner in the Kubernetes Cluster called ARC (Action Runner Controller)
 
 WORKFLOW:
 
-We deply the arc controller & listener pods in the namespace arc-systems
-using the ARC Helm Chart. The Listener watches for the Repository it is connected
-to, and on workflow trigger, it  signals the Controller.
+First, we deply the arc controller & listener in the namespace 'arc-systems'
+using the ARC Helm Chart. And Runner Scale Set in the namespace 'arc-runners'.
+The Listener watches for the Repository it is connected
+to, and on the workflow trigger, it  signals the Controller.
 The Controller Schedules the Job on the runner scale set installed in the 
-arc-runners namespace. It lauches runner pod in the arc-runners namespace, where
-the job is executed. Once the job is executed, the runner pods are terminated.
+'arc-runners' namespace. It lauches runner pod in the arc-runners namespace, where
+the job is executed. Once the job execution is completed, the runner pods are terminated.
 
 IMPLEMENTATION:
 
