@@ -1,0 +1,7 @@
+image:
+  repository: ashirqayyum/sms-frontend
+  tag: "eks-terraform"
+
+service:
+  type: NodePort
+  port: 80

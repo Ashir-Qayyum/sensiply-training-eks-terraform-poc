@@ -1,0 +1,14 @@
+image:
+  repository: ashirqayyum/sms-backend
+  tag: "eks-terraform"
+
+service:
+  port: 8080
+
+# For RDS MySQL:
+database:
+  host: sensiply-training-mysql.cgt62w4eazus.us-east-1.rds.amazonaws.com
+  port: 3306
+  name: student
+  user: admin
+  password: ""
