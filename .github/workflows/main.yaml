@@ -33,7 +33,7 @@ jobs:
       - name: Build Backend Image
         run: |
 
-          docker build -t ashirqayyum/sms-backend:eks-terraform .
+          docker build -t ashirqayyum/sms-backend:eks-terraform ./sms-app
 
       - name: Push Backend Image
         run: |
@@ -60,7 +60,7 @@ jobs:
       - name: Build Frontend Image
         run: |
 
-          docker build -t ashirqayyum/sms-frontend:eks-terraform ./src/frontend
+          docker build -t ashirqayyum/sms-frontend:eks-terraform ./sms-app/src/frontend
 
       - name: Push Frontend Image
         run: |
@@ -76,7 +76,7 @@ jobs:
       - build-backend
       - build-frontend
 
-      
+
     steps:
 
       - name: Checkout Repository
@@ -112,7 +112,7 @@ jobs:
         run: |
 
           helm upgrade --install backend \
-            ./helm/sms-backend \
+            ./sms-app/helm/sms-backend \
             --namespace sms \
             --set database.password="${{ secrets.MYSQL_PASSWORD }}"
 
@@ -123,7 +123,7 @@ jobs:
         run: |
 
           helm upgrade --install frontend \
-            ./helm/sms-frontend \
+            ./sms-app/helm/sms-frontend \
             --namespace sms
             
           kubectl rollout restart deployment/frontend -n sms  
