@@ -9,8 +9,8 @@ FOR CONFIG SCANING:<br>
 FOR PLAN SCAN:<br>
 
 First i generated fresh tfplan running at dir terraform/:<br>
-> terraform plan -out=tfplan                                (I later included tfplan and its json in .gitignore)<br>
-Then I coverted the genrated tfplan to json with:<br>
+> terraform plan -out=tfplan                                (I later included tfplan and its json in .gitignore) <br>
+<br>Then I coverted the genrated tfplan to json with:<br>
 > terraform show -json tfplan > tfplan.json                 (tfplan.json in .gitignore)<br>
 
 Then I moved to dir Trivy/ and generated report with:<br>
@@ -19,6 +19,7 @@ Then I moved to dir Trivy/ and generated report with:<br>
 > -o plan-scan-report.json
 
 FOR STATE SCAN:<br>
+
 First I temporarily pulled the remote-backend to local at dir terraform/ running:      (LATER I have deleted it even from my local also)<br>
 > terraform state pull > terraform.tfstate
 
