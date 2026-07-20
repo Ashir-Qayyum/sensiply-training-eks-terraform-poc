@@ -3,5 +3,5 @@ image:
   tag: "eks-terraform"
 
 service:
-  type: NodePort
+  type: LoadBalancer      # Since using AWS Cloud
   port: 80
