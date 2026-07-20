@@ -51,7 +51,7 @@
       }
       a.toggle-more-links { cursor: pointer; }
     </style>
-    <title>. - Trivy Report - 2026-07-06 23:42:40.414577 +0500 PKT m=+0.074237994 </title>
+    <title>. - Trivy Report - 2026-07-21 02:09:53.740686 +0500 PKT m=+0.077804637 </title>
     <script>
       window.onload = function() {
         document.querySelectorAll('td.links').forEach(function(linkCell) {
@@ -81,7 +81,7 @@
     </script>
   </head>
   <body>
-    <h1>. - Trivy Report - 2026-07-06 23:42:40.414659 +0500 PKT m=+0.074319792</h1>
+    <h1>. - Trivy Report - 2026-07-21 02:09:53.74074 +0500 PKT m=+0.077858337</h1>
     <table>
       <tr class="group-header"><th colspan="6">terraformplan</th></tr>
       <tr><th colspan="6">No Vulnerabilities found</th></tr>
@@ -131,6 +131,54 @@
           </br>
         </td>
       </tr>
+      <tr class="severity-MEDIUM">
+        <td class="misconf-type">Terraform Plan JSON Security Check</td>
+        <td>AWS-0077</td>
+        <td class="misconf-check">RDS Cluster and RDS instance should have backup retention longer than default 1 day</td>
+        <td class="severity">MEDIUM</td>
+        <td class="link" data-more-links="off"  style="white-space:normal;">
+          Instance has very low backup retention period.
+          <br>
+            <a href="https://avd.aquasec.com/misconfig/aws-0077">https://avd.aquasec.com/misconfig/aws-0077</a>
+          </br>
+        </td>
+      </tr>
+      <tr class="severity-CRITICAL">
+        <td class="misconf-type">Terraform Plan JSON Security Check</td>
+        <td>AWS-0104</td>
+        <td class="misconf-check">A security group rule should not allow unrestricted egress to any IP address.</td>
+        <td class="severity">CRITICAL</td>
+        <td class="link" data-more-links="off"  style="white-space:normal;">
+          Security group rule allows unrestricted egress to any IP address.
+          <br>
+            <a href="https://avd.aquasec.com/misconfig/aws-0104">https://avd.aquasec.com/misconfig/aws-0104</a>
+          </br>
+        </td>
+      </tr>
+      <tr class="severity-LOW">
+        <td class="misconf-type">Terraform Plan JSON Security Check</td>
+        <td>AWS-0124</td>
+        <td class="misconf-check">Missing description for security group rule.</td>
+        <td class="severity">LOW</td>
+        <td class="link" data-more-links="off"  style="white-space:normal;">
+          Security group rule does not have a description.
+          <br>
+            <a href="https://avd.aquasec.com/misconfig/aws-0124">https://avd.aquasec.com/misconfig/aws-0124</a>
+          </br>
+        </td>
+      </tr>
+      <tr class="severity-LOW">
+        <td class="misconf-type">Terraform Plan JSON Security Check</td>
+        <td>AWS-0133</td>
+        <td class="misconf-check">Enable Performance Insights to detect potential problems</td>
+        <td class="severity">LOW</td>
+        <td class="link" data-more-links="off"  style="white-space:normal;">
+          Instance does not have performance insights enabled.
+          <br>
+            <a href="https://avd.aquasec.com/misconfig/aws-0133">https://avd.aquasec.com/misconfig/aws-0133</a>
+          </br>
+        </td>
+      </tr>
       <tr class="severity-HIGH">
         <td class="misconf-type">Terraform Plan JSON Security Check</td>
         <td>AWS-0164</td>
@@ -157,6 +205,30 @@
       </tr>
       <tr class="severity-MEDIUM">
         <td class="misconf-type">Terraform Plan JSON Security Check</td>
+        <td>AWS-0176</td>
+        <td class="misconf-check">RDS IAM Database Authentication Disabled</td>
+        <td class="severity">MEDIUM</td>
+        <td class="link" data-more-links="off"  style="white-space:normal;">
+          Instance does not have IAM Authentication enabled
+          <br>
+            <a href="https://avd.aquasec.com/misconfig/aws-0176">https://avd.aquasec.com/misconfig/aws-0176</a>
+          </br>
+        </td>
+      </tr>
+      <tr class="severity-MEDIUM">
+        <td class="misconf-type">Terraform Plan JSON Security Check</td>
+        <td>AWS-0177</td>
+        <td class="misconf-check">RDS Deletion Protection Disabled</td>
+        <td class="severity">MEDIUM</td>
+        <td class="link" data-more-links="off"  style="white-space:normal;">
+          Instance does not have Deletion Protection enabled
+          <br>
+            <a href="https://avd.aquasec.com/misconfig/aws-0177">https://avd.aquasec.com/misconfig/aws-0177</a>
+          </br>
+        </td>
+      </tr>
+      <tr class="severity-MEDIUM">
+        <td class="misconf-type">Terraform Plan JSON Security Check</td>
         <td>AWS-0178</td>
         <td class="misconf-check">VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC. After you&#39;ve created a flow log, you can view and retrieve its data in Amazon CloudWatch Logs. It is recommended that VPC Flow Logs be enabled for packet &#34;Rejects&#34; for VPCs.</td>
         <td class="severity">MEDIUM</td>
@@ -164,6 +236,18 @@
           VPC does not have VPC Flow Logs enabled.
           <br>
             <a href="https://avd.aquasec.com/misconfig/aws-0178">https://avd.aquasec.com/misconfig/aws-0178</a>
+          </br>
+        </td>
+      </tr>
+      <tr class="severity-HIGH">
+        <td class="misconf-type">Terraform Plan JSON Security Check</td>
+        <td>AWS-0180</td>
+        <td class="misconf-check">RDS Publicly Accessible</td>
+        <td class="severity">HIGH</td>
+        <td class="link" data-more-links="off"  style="white-space:normal;">
+          Instance has Public Access enabled
+          <br>
+            <a href="https://avd.aquasec.com/misconfig/aws-0180">https://avd.aquasec.com/misconfig/aws-0180</a>
           </br>
         </td>
       </tr>
