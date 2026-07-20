@@ -21,6 +21,7 @@ helm install "arc-runner-set" \
 --create-namespace \
 --set githubConfigUrl="https://github.com/Ashir-Qayyum/sensiply-training-eks-terraform-poc" \
 --set githubConfigSecret.github_token="PAT_I_Just_Generated" \
+--set containerMode.type=dind \
 oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set
 
 
