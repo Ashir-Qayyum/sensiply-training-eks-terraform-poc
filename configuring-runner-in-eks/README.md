@@ -27,20 +27,24 @@ using official helm chart by GitHub
 
 (with connected with the EKS Cluster)
 
->  helm install arc \
->   --namespace "arc-systems" \
->   --create-namespace \
->   oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller
+```bash
+helm install arc \
+--namespace "arc-systems" \
+--create-namespace \
+oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller
+```
 
 Finally, I deployed runner scale set with:
 
-> helm install "arc-runner-set" \
->   --namespace "arc-runners" \
->   --create-namespace \
->   --set githubConfigUrl="https://github.com/Ashir-Qayyum/sensiply-training-eks-terraform-poc" \
->   --set githubConfigSecret.github_token="PAT_I_Just_Generated" \
->   --set containerMode.type=dind \
->   oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set
+```bash
+helm install "arc-runner-set" \
+--namespace "arc-runners" \
+--create-namespace \
+--set githubConfigUrl="https://github.com/Ashir-Qayyum/sensiply-training-eks-terraform-poc" \
+--set githubConfigSecret.github_token="PAT_I_Just_Generated" \
+--set containerMode.type=dind \
+oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set
+```
 
 (I also ran Docker-in-Docker Sidecar container inside the runner pod. In order to build the 
 image, the runner needs Docker Daemon to build image using Docker CLI. DinD Sidecar Container
