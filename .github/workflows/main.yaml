@@ -90,6 +90,7 @@ jobs:
 
       - name: Check unzip                       # Checking if utility is installed 
         run: unzip -v
+        
 
       - name: Install AWS CLI                   # Installing AWS CLI as it was installed by-default
         run: |
